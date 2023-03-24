@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: gray;
+  /* color: white; */
+}
+header {
+  margin-top: 2rem;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.kanban {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.kanban-not-started,.kanban-in-progress{
+  margin-right: 9rem;
+}
+.title{
+  text-align:center;
+  margin-bottom: 0.5rem;
+}
+.items-input{
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn{
+  border: none;
+  background-color: rgb(204, 200, 200);
+  color: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+  width: 100%;
+  padding: 0.4rem 5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
